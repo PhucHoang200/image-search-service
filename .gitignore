@@ -1,0 +1,22 @@
+# Không đưa môi trường ảo lên GitHub
+venv/
+.venv/
+
+# Không đưa dữ liệu model lên GitHub
+image_similarity/
+*.idx
+*.npy
+*.csv
+*.h5
+
+# Không upload hình ảnh dataset
+images/
+*.jpg
+*.png
+
+# Cache
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
